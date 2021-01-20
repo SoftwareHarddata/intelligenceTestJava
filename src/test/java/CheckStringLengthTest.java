@@ -29,7 +29,7 @@ public class CheckStringLengthTest {
     @Test
     public void greater100(){
         //Given
-        int a=100;
+        int a=101;
         int b=6;
         //when
         boolean result = CheckStringLengthApp.check100(a, b);
