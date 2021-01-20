@@ -7,7 +7,7 @@ public class CheckStringLengthTest {
     @Test
     public void lttwentyCheck(){
         //Given
-        String testString = "hhhhhhhhhhhhhhhhhhhh";
+        String testString = "hhhhhhhggghhhhhhhhhhhhh";
         //when
         boolean result = CheckStringLengthApp.lttwenty(testString);
         //then
